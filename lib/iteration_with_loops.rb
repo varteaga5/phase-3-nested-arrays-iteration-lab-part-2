@@ -7,9 +7,9 @@ def find_min_in_nested_arrays(src)
   min_arr = []
   while i < src.length do 
     
+    # use min function on each each array
     min_arr << src[i].min
-    # loop 2nd level
-
+    
     i += 1
   end
 min_arr
